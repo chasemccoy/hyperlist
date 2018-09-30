@@ -9,8 +9,7 @@
     "dev": "next",
     "build": "next build",
     "export": "next export -o public",
-    "start": "next start",
-    "deploy": "yarn build && yarn export && now public -A ../now.json && now alias"
+    "start": "next start"
   },
   "dependencies": {
     "next": "^7.0.1",

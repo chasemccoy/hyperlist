@@ -1,6 +1,6 @@
 const Index = () => (
   <div>
-    <p>Hello Next.js</p>
+    <p>Hello world!</p>
   </div>
 )
 
