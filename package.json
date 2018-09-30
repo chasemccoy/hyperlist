@@ -1,0 +1,20 @@
+{
+  "name": "hyperlist",
+  "version": "1.0.0",
+  "main": "n/a",
+  "repository": "git@github.com:chasemccoy/hyperlist.git",
+  "author": "Chase McCoy <chasem000@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export -o public",
+    "start": "next start",
+    "deploy": "yarn build && yarn export && now public -A ../now.json && now alias"
+  },
+  "dependencies": {
+    "next": "^7.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}

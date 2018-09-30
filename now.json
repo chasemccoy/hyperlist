@@ -1,0 +1,8 @@
+{
+  "name": "Hyperlist",
+  "alias": "hyperlist",
+  "type": "static",
+  "static": {
+    "public": "public"
+  }
+}
