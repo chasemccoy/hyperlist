@@ -1,6 +1,6 @@
 {
   "name": "hyperlist",
-  "alias": "hyperlist",
+  "alias": "hyperlist.online",
   "type": "static",
   "static": {
     "public": "public"
