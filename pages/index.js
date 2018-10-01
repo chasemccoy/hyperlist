@@ -9,7 +9,7 @@ const Index = () => (
     </Head>
 
     <header>
-      <img src='/static/logo.png' width='251' height='71' />
+      <img src='/static/logo.png' width='251' height='71' alt='Hyperlist Online' />
       <h1>Season 1, Issue 4</h1>
       <hr />
     </header>
