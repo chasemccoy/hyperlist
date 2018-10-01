@@ -5,6 +5,7 @@ const Index = () => (
   <div className='container'>
     <Head>
       <title>Hyperlist Online</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
 
     <header>
