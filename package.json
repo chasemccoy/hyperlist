@@ -12,6 +12,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mdx-js/mdx": "^0.15.4",
+    "@zeit/next-mdx": "^1.2.0",
     "@zeit/next-sass": "^1.0.1",
     "next": "^7.0.1",
     "node-sass": "^4.9.3",

@@ -6,9 +6,15 @@
    ========================================================================== */
 
 $color-white: #ffffff !default;
-$color-black: #191919 !default;
+$color-black: #222222 !default;
 $color-gray: #f1f1f1 !default;
 $color-blue: #2b7fff !default;
+
+$color-green: #83ffcd !default;
+$color-purple: #DAC4F7 !default;
+$color-pink: #FFA3BB !default;
+$color-yellow: #FCF3AF !default;
+$color-teal: #AEFFFF !default;
 
 $colors: (
 	'white': $color-white,
@@ -104,7 +110,7 @@ $spacing-sides: (
 /* Grid
    ========================================================================== */
 
-$grid-container-width: 608px !default;
+$grid-container-width: 616px !default;
 $grid-columns: 12 !default;
 $grid-column-width: $grid-container-width / $grid-columns !default;
 $grid-gutter: 24px !default;
