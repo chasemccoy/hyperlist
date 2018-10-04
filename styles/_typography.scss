@@ -20,7 +20,7 @@ header hr {
 	height: 4px;
 }
 
-h3 {
+h3, h4 {
 	margin-top: 0;
 	text-decoration: underline;
 	-webkit-text-decoration-style: wavy;
@@ -28,6 +28,10 @@ h3 {
 	-webkit-text-underline-position: under;
 	text-underline-position: under;
 	font-family: $font-family-mono;
+}
+
+.box h4 {
+	margin-top: 0;
 }
 
 /**
@@ -96,8 +100,16 @@ a {
 
 ul, ol {
 	margin: 0;
-	padding-left: 24px;
-	list-style: circle;
+	padding-left: 32px;
+	list-style-type: none;
+	position: relative;
+
+	li:before {
+		content: '\00261E'; // ☞
+		font-size: 24px;
+		position: absolute;
+		left: 0;
+	}
 }
 
 ul li + li {

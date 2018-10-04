@@ -26,5 +26,32 @@ header {
 	padding: 16px;
 	border: 2px solid $color-black;
 	border-radius: 5px;
-	box-shadow: 8px 8px 0 $color-black;
+	box-shadow: 4px 4px 0 $color-black;
+}
+
+.two-up {
+	display: flex;
+	margin-top: 24px;
+
+	@include small {
+		flex-wrap: wrap;
+		margin-top: 16px;
+	}
+
+	> * {
+    width: calc(50% - 12px);
+
+		@include small {
+      width: calc(100%);
+    }
+  }
+
+  > * + * {
+    margin-left: 24px;
+
+		@include small {
+      margin-left: 0;
+			margin-top: 16px;
+    }
+  }
 }
