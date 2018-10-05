@@ -78,7 +78,9 @@ h3, h4 {
 	line-height: 1.6;
 
 	span {
-		background: $color-pink;
+		background: $color-yellow;
+		padding: 6px 2px 6px 4px;
+		white-space: nowrap;
 	}
 }
 
