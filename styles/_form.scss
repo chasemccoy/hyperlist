@@ -1,5 +1,5 @@
 #mc_embed_signup {
-	margin: 64px 0;
+	margin: 40px 0;
 }
 
 .mc-field-group label {
@@ -37,6 +37,8 @@ input.button {
 	font-weight: bold;
 	font-family: $font-family-mono;
 	cursor: pointer;
+	-webkit-appearance: none;
+  -moz-appearance: none;
 
 	border: 2px solid $color-black;
 	border-radius: 5px;
