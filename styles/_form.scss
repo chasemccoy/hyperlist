@@ -1,0 +1,54 @@
+#mc_embed_signup {
+	margin: 64px 0;
+}
+
+.mc-field-group label {
+	display: block;
+	margin-bottom: 2px;
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: $font-family-mono;
+}
+
+.mc-field-group input {
+	padding: 8px;
+	font-size: 1rem;
+	border: 2px solid $color-black;
+	border-radius: 5px;
+	// box-shadow: 4px 4px 0 $color-black;
+	width: calc(100% - 20px);
+
+	&:focus {
+		box-shadow: 4px 4px 0 $color-black;
+	}
+}
+
+.mc-field-group + .mc-field-group {
+	margin-top: 16px;
+}
+
+input.button {
+	white-space: nowrap;
+	border: none;
+	padding: 8px 12px;
+	font-size: 1rem;
+	margin-top: 24px;
+	background: $color-green;
+	font-weight: bold;
+	font-family: $font-family-mono;
+	cursor: pointer;
+
+	border: 2px solid $color-black;
+	border-radius: 5px;
+	box-shadow: 4px 4px 0 $color-black;
+
+	&:hover {
+		background: darken($color-green, 10%);
+	}
+
+	&:active {
+		background: darken($color-green, 20%);
+		color: $color-black;
+		box-shadow: 2px 2px 0 $color-black;
+	}
+}

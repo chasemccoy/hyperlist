@@ -19,7 +19,7 @@ body {
 }
 
 header {
-	margin: 64px 0;
+	margin: 48px 0 64px;
 }
 
 .box {
@@ -27,6 +27,10 @@ header {
 	border: 2px solid $color-black;
 	border-radius: 5px;
 	box-shadow: 4px 4px 0 $color-black;
+
+	&.roomy {
+		padding: 24px;
+	}
 }
 
 .two-up {
