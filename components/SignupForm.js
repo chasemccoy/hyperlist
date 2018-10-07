@@ -16,10 +16,10 @@ const SignupForm = () => (
 					<input type="email" defaultValue="" name="EMAIL" className="required email" id="mce-EMAIL" />
 				</div>
 
-				<div className="mc-field-group">
+				{/* <div className="mc-field-group">
 					<label htmlFor="mce-FNAME">First Name</label>
 					<input type="text" defaultValue="" name="FNAME" className="" id="mce-FNAME" />
-				</div>
+				</div> */}
 
 				<div id="mce-responses" className="clear">
 					<div className="response" id="mce-error-response" style={{display: "none"}}></div>
