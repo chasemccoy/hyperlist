@@ -31,6 +31,10 @@ header {
 	&.roomy {
 		padding: 24px;
 	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
 }
 
 .two-up {

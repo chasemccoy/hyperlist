@@ -33,8 +33,10 @@ const SignupForm = () => (
 					<input type="text" name="b_b204146be746a61ff69c861f3_d9e71d1941" tabIndex="-1" defaultValue="" />
 				</div>
 
-				<div className="clear">
+				<div className="clear align-horizontal mt24">
 					<input type="submit" defaultValue="Let's do this!" name="subscribe" id="mc-embedded-subscribe" className="button" />
+
+					<img src='/static/mailbox.gif'/>
 				</div>
 			</div>
 		</form>

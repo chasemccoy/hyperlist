@@ -13,6 +13,10 @@
 	margin-bottom: 24px;
 }
 
+.mt24 {
+	margin-top: 24px;
+}
+
 .my16 {
 	margin-top: 16px;
 	margin-bottom: 16px;
@@ -36,4 +40,9 @@
 
 .teal {
 	background: $color-teal;
+}
+
+.align-horizontal {
+	display: flex;
+	justify-content: space-between;
 }

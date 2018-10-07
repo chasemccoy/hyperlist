@@ -32,13 +32,14 @@ input.button {
 	border: none;
 	padding: 8px 12px;
 	font-size: 1rem;
-	margin-top: 24px;
+	margin-top: 0;
 	background: $color-green;
 	font-weight: bold;
 	font-family: $font-family-mono;
 	cursor: pointer;
 	-webkit-appearance: none;
   -moz-appearance: none;
+	margin-left: 0;
 
 	border: 2px solid $color-black;
 	border-radius: 5px;
