@@ -34,7 +34,7 @@ const SignupForm = () => (
 				</div>
 
 				<div className="clear align-horizontal mt24">
-					<input type="submit" defaultValue="Let's do this!" name="subscribe" id="mc-embedded-subscribe" className="button" />
+					<input type="submit" value="Let's do this!" name="subscribe" id="mc-embedded-subscribe" className="button" />
 
 					<img src='/static/mailbox.gif'/>
 				</div>
