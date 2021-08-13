@@ -15,7 +15,7 @@
     "@mdx-js/mdx": "^0.15.4",
     "@zeit/next-mdx": "^1.2.0",
     "@zeit/next-sass": "^1.0.1",
-    "next": "^7.0.1",
+    "next": "^11.1.0",
     "node-sass": "^4.9.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
